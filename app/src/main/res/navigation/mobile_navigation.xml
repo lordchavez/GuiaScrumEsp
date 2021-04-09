@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.infoberia.guiascrumesp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_definicion"
+        android:name="com.infoberia.guiascrumesp.ui.definicion.DefinicionFragment"
+        android:label="@string/menu_definicion"
+        tools:layout="@layout/fragment_definicion" />
+
+    <fragment
+        android:id="@+id/nav_teoria"
+        android:name="com.infoberia.guiascrumesp.ui.teoria.TeoriaFragment"
+        android:label="@string/menu_teoria"
+        tools:layout="@layout/fragment_teoria" />
+    <fragment
+        android:id="@+id/nav_valores"
+        android:name="com.infoberia.guiascrumesp.ui.valores.ValoresFragment"
+        android:label="@string/menu_valores"
+        tools:layout="@layout/fragment_valores" />
+
+    <fragment
+        android:id="@+id/nav_equipo"
+        android:name="com.infoberia.guiascrumesp.ui.equipo.EquipoFragment"
+        android:label="@string/menu_equipo"
+        tools:layout="@layout/fragment_equipo" />
+
+    <fragment
+        android:id="@+id/nav_eventos"
+        android:name="com.infoberia.guiascrumesp.ui.eventos.EventosFragment"
+        android:label="@string/menu_eventos"
+        tools:layout="@layout/fragment_eventos" />
+
+    <fragment
+        android:id="@+id/nav_artefactos"
+        android:name="com.infoberia.guiascrumesp.ui.artefactos.ArtefactosFragment"
+        android:label="@string/menu_artefactos"
+        tools:layout="@layout/fragment_artefactos" />
+
+    <fragment
+        android:id="@+id/nav_nota"
+        android:name="com.infoberia.guiascrumesp.ui.nota.NotaFragment"
+        android:label="@string/menu_nota"
+        tools:layout="@layout/fragment_nota" />
+
+</navigation>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_definicion"
+            android:title="@string/menu_definicion" />
+        <item
+            android:id="@+id/nav_teoria"
+            android:title="@string/menu_teoria" />
+        <item
+            android:id="@+id/nav_valores"
+            android:title="@string/menu_valores" />
+        <item
+            android:id="@+id/nav_equipo"
+            android:title="@string/menu_equipo" />
+        <item
+            android:id="@+id/nav_eventos"
+            android:title="@string/menu_eventos" />
+        <item
+            android:id="@+id/nav_artefactos"
+            android:title="@string/menu_artefactos" />
+        <item
+            android:id="@+id/nav_nota"
+            android:title="@string/menu_nota" />
+    </group>
+</menu>

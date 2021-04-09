@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">GuiaScrumEsp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Guía Scrum en Español</string>
+    <string name="nav_header_subtitle">Powered by infoberia.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_definicion">Definición de Scrum</string>
+    <string name="menu_teoria">Teoría de Scrum</string>
+    <string name="menu_valores">Valores de Scrum</string>
+    <string name="menu_equipo">El Equipo Scrum</string>
+    <string name="menu_eventos">Eventos de Scrum</string>
+    <string name="menu_artefactos">Artefactos de Scrum</string>
+    <string name="menu_nota">Nota Final</string>
+
+</resources>
